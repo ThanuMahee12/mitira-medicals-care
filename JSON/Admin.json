@@ -1,0 +1,30 @@
+{
+    "Pages":[
+        {
+            "no":1,
+            "Page":"DashBoard",
+            "link":"https://localhost/AyushMedicals/AdminDashBoard.php?usertype=Admin"
+        },
+        {
+            "no":2,
+            "Page":"Doctors",
+            "link":"https://localhost/AyushMedicals/DoctorDetails.php?usertype=Admin"
+        },
+        {
+            "no":3,
+            "Page":"Patients",
+            "link":"https://localhost/AyushMedicals/PatientDetails.php?usertype=Admin"
+        },
+        {
+            "no":4,
+            "Page":"Medicine",
+            "link":"https://localhost/AyushMedicals/MedicineDetails.php?usertype=Admin"
+        },
+        {
+            "no":5,
+            "Page":"Disseses",
+            "link":"https://localhost/AyushMedicals/DisessDetails.php?usertype=Admin"
+        }
+    ],
+    "MedicineCategory":["Common","Nerogitic","Digistc","Painkiller","AntiBoitic","Perdiotic","Emergency","FirstAid","babySurup","Surup","Vaxout","Creams"]
+}

@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    width:100%;
+}
+.menulink {
+    font-weight: 600 ;
+    font-size: 18px;
+    padding:0 10px !important;
+    color: white !important;
+}
+.menulink:hover,.useroption:hover{
+    background-color: rgb(112, 109, 142) !important;
+}
+.login,.Registration{
+    margin-top: 50px;
+    min-height:700px;;
+}
+.login div img, .Registration div img{
+    position: relative;
+    width:150px;
+    height:150px;
+    margin-left:260px;
+}
+#error{
+    text-align: center;
+    font-family:cursive;
+}
+/* personal Layout */
+.pages{
+    display:grid;
+    grid-template-columns: 1fr 6fr;
+    margin-top: 65px;
+}
+#sidebar{
+    height: 100vh;
+    min-height: 100vh;
+    position: sticky;
+    top:80px;
+}
+main{
+margin-top: 20px;
+}
+#sidebar ul li:hover{
+    background-color:rgba(0, 0, 0, 0.432);
+}
+.setcener{
+    position: relative;
+    top:-200px;
+}
+.medicineheader{
+    margin-top:100px;
+}
+.Scrollcontainer{
+    display:flex;
+    flex-direction:row;
+    overflow-x:auto;
+}
+.Scrollcontainer::-webkit-scrollbar {
+    display: none;
+  }
+.buyProduct{
+    margin-top:75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+.chenelling {
+        margin-top:77px;
+}
+.chenelling form{
+    width:80%;
+    margin: 10px auto;
+    min-height: 100vh;
+}
+#Desesdetails{
+    width:100%;
+}
+.AdminDashBoard{
+    margin-top: 120px;
+    width:90%;
+}
+.diseses{
+    margin-top:200px;
+}
+#disesSearchContainer{
+    margin-top: 50px;
+    position: relative;
+}
+#disesContainer{
+    margin-top: 500px;
+}
+.Appointments{
+    margin-top:120px;
+}
+#doctorsdetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-y: auto;
+}
