@@ -1,15 +1,3 @@
-<?php 
-    session_start();
-    if(!isset($_SESSION['UserID'])){
-        header("Location:Login.php");
-    }
-    include("Conf.php");
-    $id=$_SESSION['UserID'];
-    $user="SELECT * FROM `user` WHERE `UserID`='$id'";
-    $resultUser=$Ayushconnect->query($user);
-    $row=mysqli_fetch_assoc($resultUser);
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
