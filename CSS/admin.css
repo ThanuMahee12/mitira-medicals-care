@@ -1,0 +1,76 @@
+@import url("./style.css");
+#admincontent{
+    margin-top: 0;
+    min-height: 100vh;
+}
+aside{
+    width:16%;
+    position: sticky;
+    top:0px;
+    padding: 0px 5px;
+    min-height: inherit;
+    overflow: hidden;
+}
+aside ul{
+    height: 500px;
+    overflow-y:auto ;
+}
+#logo div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0px;
+}
+#logo img{
+    width:90%;
+    position: sticky;
+}
+aside a:hover{
+    color:#fff;
+}
+.logout{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 0px;
+    margin: 0;
+}
+.logout a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+    aside{
+        width:20%;
+    }
+    html{
+        font-size: 85%;
+    }
+  }
+  @media screen and (max-width: 680px) {
+    aside{
+        width:22%;
+    }
+    html{
+        font-size:60%;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+  aside{
+      width:100%;
+      text-align: center;
+  }
+ #logo img{
+    width:40%;
+    height:150px;
+    border-radius: 50%;
+  }
+  html{
+      font-size:80%;
+  }
+  aside .nav-link{
+    text-align: center;
+  }
+}

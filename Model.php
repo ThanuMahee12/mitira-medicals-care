@@ -66,6 +66,7 @@ class User{
     public function getaddress(){
         return $this->address;
     }
+    
 
 }
 

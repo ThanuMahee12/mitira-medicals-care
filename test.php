@@ -9,7 +9,7 @@
 <body>
     <a>Hi</a>
     <?php include("Footer.php")?>
-<script src="JS/system.js" type="module"></script>
+<script src="JS/Ayush.js" type="module"></script>
 
 </body>
 </html>

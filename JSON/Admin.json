@@ -3,17 +3,17 @@
         {
             "no":1,
             "Page":"DashBoard",
-            "link":"https://localhost/AyushMedicals/AdminDashBoard.php?usertype=Admin"
+            "link":"/"
         },
         {
             "no":2,
             "Page":"Doctors",
-            "link":"https://localhost/AyushMedicals/DoctorDetails.php?usertype=Admin"
+            "link":"https://localhost/AyushMedicals/admin/Doctor.php"
         },
         {
             "no":3,
             "Page":"Patients",
-            "link":"https://localhost/AyushMedicals/PatientDetails.php?usertype=Admin"
+            "link":"https://localhost/AyushMedicals/admin/Patient.php"
         },
         {
             "no":4,

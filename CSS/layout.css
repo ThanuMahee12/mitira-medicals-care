@@ -1,13 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-}
-html{
-    overflow-x: hidden;
-}
-body{
-    width:100%;
-}
+@import url("./style.css");
 .menulink {
     font-weight: 600 ;
     font-size: 18px;

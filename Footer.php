@@ -1,5 +1,5 @@
 
-<script src="JS/jquery-3.6.0.min.js"></script>
+<script src="http://localhost/AyushMedicalsCare/JS/jquery-3.6.0.min.js"></script>
 <footer class='w-100 bg-dark text-white clearfix'>
 <div class="container-fluid">
     <div class="row border-bottom-1 border-secondary">
