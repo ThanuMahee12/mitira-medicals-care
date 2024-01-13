@@ -1,5 +1,5 @@
 <?php 
- require ('conf.php');
+ require ('config.php');
 session_start();
 if(!isset($_SESSION['UserID'])){
     header("location:Login.php?regms=Login First!");
