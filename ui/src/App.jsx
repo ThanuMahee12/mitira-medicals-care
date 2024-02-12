@@ -1,3 +1,4 @@
+import React,{memo} from 'react'
 import './style/App.css';
 import AppContext from './contexts/AyushContext'
 function App() {
@@ -9,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default memo(App);
