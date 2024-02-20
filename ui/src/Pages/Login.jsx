@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Component, memo } from 'react';
 
-export default function Login(){
-	
-	return (
-		
-		)
+class Login extends Component {
+	render() {
+		return (
+			<div>
+				Login
+			</div>
+		);
+	}
 }
+
+export default memo(Login);

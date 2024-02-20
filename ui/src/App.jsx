@@ -1,11 +1,11 @@
-import React,{memo} from 'react'
+import React,{ memo} from 'react'
 import './style/App.css';
 import AppContext from './contexts/AyushContext'
+import Login from './Pages/Login';
 function App() {
   return (
-  <AppContext>
-    <div className='ayushApp'>
-    </div>
+    <AppContext>
+<Login/>
 	</AppContext>
   );
 }
