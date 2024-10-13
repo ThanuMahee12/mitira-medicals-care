@@ -1,0 +1,19 @@
+{
+  "name": "mitira-medicals-care",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ThanuMahee12/mitira-medicals-care.git",
+  "author": "ThanuMahee12 <thanumahee440@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace server start\" \"yarn workspace client start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
