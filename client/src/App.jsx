@@ -4,7 +4,10 @@ import { router } from './Router/Router';
 
 function App() {
   return (
-    <RouterProvider router={router}/>
+    <RouterProvider router={router}
+    fallbackElement={<h1>Loading...</h1>}
+    future={{ v7_startTransition: true }}
+    />
   );
 }
 
