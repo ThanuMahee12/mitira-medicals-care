@@ -10,6 +10,7 @@ element:<MasterLayout/>,
 errorElement:<NotFound/>,
 children:[
     {
+        index:true,
         path:"/home",
         element:<Home/>
     },
