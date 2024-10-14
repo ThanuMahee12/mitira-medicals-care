@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[834],{834:(e,n,t)=>{t.r(n),t.d(n,{default:()=>c});t(643);var u=t(507);const c=function(){return(0,u.jsx)("h1",{children:"Aboutus"})}}}]);
+//# sourceMappingURL=834.6de549ff.chunk.js.map
