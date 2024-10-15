@@ -8,9 +8,8 @@ const App=express()
 App.use(express.json())
 
 
-process.env.NODE_ENV === 'development' && App.use(consoleLogger)
 App.use(logger);
-
+App.use(consoleLogger)
 App.use("/mitira-api",router)
 
 

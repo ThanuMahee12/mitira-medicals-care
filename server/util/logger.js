@@ -15,5 +15,8 @@ morgan.token('res', function(req, res) {
     return res
 });
 const logger=morgan(':status  :method Host: :host URL: :url -- :response-time ms -- :res[content-length]', { stream: accessLogStream })
-export const consoleLogger=morgan("dev")
+export const consoleLogger=(req,res,next)=>{
+    console.log(`Host:${req.hostname} Method:${req.method} URL:${req.url} Status:${ res.statusCode} Params: ${req.params?.length} Body: ${res.body} `);
+    next()
+}
 export default logger
