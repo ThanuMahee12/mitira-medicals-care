@@ -1,6 +1,6 @@
 import express from 'express'
 import router from './router/router.js'
-import logger from './util/logger.js'
+import logger,{consoleLogger} from './util/logger.js'
 
 
 const PORT=process.env.BACKEND_PORT??8000
@@ -8,7 +8,7 @@ const App=express()
 App.use(express.json())
 
 
-
+process.env.NODE_ENV === 'development' && App.use(consoleLogger)
 App.use(logger);
 
 App.use("/mitira-api",router)
