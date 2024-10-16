@@ -3,7 +3,7 @@ import fs from "fs"
 
 
 // Create a write stream (in append mode)
-const accessLogStream = fs.createWriteStream( '../api.log', { flags: 'a' });
+const accessLogStream = fs.createWriteStream( './api.log', { flags: 'a' });
 
 // morgan.token('param', function(req, res, param) {
 //     return req.params[param];
