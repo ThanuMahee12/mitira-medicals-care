@@ -13,7 +13,9 @@
   },
   "scripts": {
     "start": "node --env-file=../.env src/index.js",
-    "dev":"nodemon --env-file=../.env src/index.js"
-  },
-  "devDependencies": {}
+    "dev": "nodemon --env-file=../.env src/index.js",
+    "format": "prettier --write .",
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix "
+  }
 }
