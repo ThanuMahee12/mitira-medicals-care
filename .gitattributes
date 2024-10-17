@@ -6,7 +6,8 @@
 *.js   diff=javascript
 *.ts   diff=javascript
 *.tsx  diff=javascript
-*.css diff=css
+*.cjs  diff=javascript
+*.css  diff=css
 *.html diff=html
 
 # Treat binary files (images, videos, etc.) properly

@@ -16,6 +16,8 @@
     "dev": "nodemon --env-file=../.env src/index.js",
     "format": "prettier --write .",
     "lint": "eslint . ",
-    "lint:fix": "eslint . --fix "
+    "lint:fix": "eslint . --fix ",
+    "predev": "npm run lint && npm run format",
+    "prestart": "npm run lint && npm run format"
   }
 }
